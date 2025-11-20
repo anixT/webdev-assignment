@@ -22,8 +22,10 @@
     }
 
     table {
-      width: 100%;
+      width: 60%;            
+      max-width: 800px;
       border-collapse: collapse;
+      
     }
     
     th, td {
