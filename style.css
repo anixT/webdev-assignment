@@ -42,6 +42,8 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+      width: 50%;
+      border-collapse: collapse;
     }
     
     label {
@@ -95,10 +97,14 @@
       }
       .pseudo-list li:nth-child(odd) {
         background-color: lightgray;
-      }
+        width: 60%;
+        border-collapse: collapse; 
+     }
       
       .pseudo-list li:nth-child(even) {
         background-color: white;
+        width: 10%;
+        background-origin: collapse;
       }
 
       .filter-image {
